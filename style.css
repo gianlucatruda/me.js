@@ -1,0 +1,48 @@
+body{
+	margin-top: 10%;
+	background: #15202e !important;
+	font-family: helvetica;
+}
+
+h1, h2, h3, p{
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 3px grey;
+}
+
+h1{
+	font-size: 50px;
+	margin-bottom: -10px;
+}
+
+h2{
+	margin-bottom: -5px;
+}
+
+div{
+	margin-top: 30px;
+}
+
+.heart{
+	background-color: white;
+	height: 15px;
+	transform: rotate(-45deg);
+	width: 15px;
+}
+
+.heart:before,
+.heart:after{
+	content: "";
+	background-color: white;
+	border-radius: 50%;
+	height: 15px;
+	position: absolute;
+	width: 15px;
+
+}
+
+.heart:before{
+	top: -7.8px;
+	left: 0;
+}
+
