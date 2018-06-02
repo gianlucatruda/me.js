@@ -1,6 +1,6 @@
 (function() {
 
-	var birthDate = new Date("Jan 1, 1996 19:00:00").getTime();
+	var birthDate = new Date("Jan 6, 1996 19:00:00").getTime();
 			var x = setInterval(function(){
 				var now = new Date().getTime();
 
